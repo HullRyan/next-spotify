@@ -10,7 +10,7 @@ export default function Callback() {
     } else if (status === "error") {
         return <h1>Error: {error.message}</h1>;
     } else {
-        router.push("/");
+        router.push("/next-spotify");
         return <h1>Success!</h1>;
     } 
 }
